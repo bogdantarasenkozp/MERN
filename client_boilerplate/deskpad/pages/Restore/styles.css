@@ -1,0 +1,49 @@
+.PageRestore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #f8f8f8;
+
+    &__form {
+        width: 100%;
+        max-width: 640px;
+        margin: 0 auto;
+        background-color: #fff;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    }
+
+    &__form-body {
+        padding: 50px 100px;
+
+        & .input {
+            width: 100%;
+        }
+    }
+
+    &__field {
+        display: flex;
+        align-items: center;
+        margin-bottom: 34px;
+    }
+
+    &__errors {
+        text-align: center;
+        color: rgba(219, 52, 72, 1);
+    }
+
+    &__broken-token {
+        line-height: 2;
+        padding: 50px 100px;
+        text-align: center;
+        color: rgba(219, 52, 72, 1);
+        background: #fff;
+    }
+
+    &__success {
+        padding: 50px 100px;
+        text-align: center;
+        color: #3c763d;
+        background-color: #fff;
+    }
+}

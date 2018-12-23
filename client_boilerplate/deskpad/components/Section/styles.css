@@ -1,0 +1,27 @@
+.Section {
+    width: 100%;
+
+    &_size_m {
+        padding: 40px 0;
+    }
+}
+
+.Section_theme_white {
+    background-color: #fff;
+}
+
+.Section_theme_grey {
+    background-color: #f2f2f2;
+}
+
+.Section_theme_lowGray {
+    background-color: #f9f8f8;
+}
+
+.Section_theme_lightGray {
+    background-color: #f9f9f9;
+}
+
+.Section_theme_brown {
+    background-color: #493f3e;
+}

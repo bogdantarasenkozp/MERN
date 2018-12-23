@@ -1,0 +1,161 @@
+.input {
+    position: relative;
+    display: inline-block;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.input::before {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    left: 1px;
+    content: '';
+    background: #fff;
+}
+
+.input .input__box {
+    position: relative;
+    display: block;
+    user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.input .input__control {
+    font: inherit;
+    line-height: inherit;
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    outline: none;
+    background: none;
+}
+
+.input .input__control::-webkit-search-cancel-button {
+    display: none;
+}
+
+.input .input__control::-ms-clear {
+    display: none;
+}
+
+.input .input__control:-webkit-autofill {
+    border: 1px solid transparent;
+    background-clip: padding-box;
+}
+
+.input.input_has-clear .input__control {
+    text-overflow: ellipsis;
+}
+
+.input.input_focused {
+    z-index: 1;
+    box-shadow: 0 0 0 1px #fc0, inset 0 0 0 1px #fc0;
+}
+
+.input.input_focused .input__control {
+    text-overflow: clip;
+}
+
+.input.input_disabled {
+    background: transparent;
+}
+
+.input.input_disabled::before {
+    display: none;
+}
+
+.input.input_disabled .input__box,
+.input.input_disabled .input__control {
+    cursor: default;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.input.input_size_s {
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.input.input_size_s .input__control {
+    height: 24px;
+    padding: 0 6px;
+}
+
+.input.input_size_s.input_has-clear .input__control {
+    padding-right: 24px;
+}
+
+.input.input_size_m {
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.input.input_size_m .input__control {
+    height: 28px;
+    padding: 0 8px;
+}
+
+.input.input_size_m.input_has-clear .input__control {
+    padding-right: 28px;
+}
+
+.input.input_size_l {
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.input.input_size_l .input__control {
+    height: 32px;
+    padding: 0 10px;
+}
+
+.input.input_size_l.input_has-clear .input__control {
+    padding-right: 32px;
+}
+
+.input.input_size_xl {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.input.input_size_xl .input__control {
+    height: 38px;
+    padding: 0 12px;
+}
+
+.input.input_width_available {
+    width: 100%;
+}
+
+.input.input_type_password .input__control {
+    text-overflow: clip;
+}
+
+.input_theme_default {
+    &.input_focused {
+        box-shadow: 0 2px 9px 2px rgba(0, 0, 0, 0.13);
+    }
+
+    & .input__box {
+        background: #f2f2f2;
+        box-shadow: 0 2px 9px 2px rgba(0, 0, 0, 0.1);
+    }
+}
+
+.input_theme_default {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.input_theme_white {
+    &.input_focused {
+        box-shadow: 0 2px 9px 2px rgba(0, 0, 0, 0.13);
+    }
+
+    & .input__box {
+        background: #fff;
+        box-shadow: 0 2px 9px 2px rgba(0, 0, 0, 0.1);
+    }
+}

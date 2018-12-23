@@ -1,0 +1,139 @@
+.Header {
+    box-shadow: 0 1px 6px #39494c59;
+
+    &__link-nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 10px 0;
+
+        & .button {
+            margin: 0 10px;
+        }
+
+        & .link {
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+
+            &:not(:first-child) {
+                margin-left: 80px;
+            }
+        }
+    }
+
+    &__section-doc {
+        padding: 60px 100px;
+    }
+
+    &__content {
+        width: 1200px;
+        padding-top: 0;
+    }
+
+    &__section-doc-title {
+        font-family: Oswald, sans-serif;
+        font-size: 22px;
+        margin: 0;
+        text-align: center;
+        letter-spacing: 2px;
+        color: #493f3f;
+    }
+
+    &__section-doc-row {
+        justify-content: center;
+    }
+
+    &__user-content {
+        justify-content: space-between;
+    }
+
+    &__logo {
+        position: absolute;
+        top: 22px;
+        left: 45px;
+
+        & .logo_img {
+            width: 67px;
+            height: 67px;
+            margin-right: 15px;
+        }
+
+        & .logo_text {
+            height: 14px;
+        }
+    }
+
+    &__logout {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    & .Section_name_details {
+        margin-top: -25px;
+        padding-top: 60px;
+    }
+
+    &__actions_icon {
+        position: absolute;
+        top: 15px;
+        right: 45px;
+    }
+
+    &__actions_icon_text {
+        margin-right: 20px;
+    }
+
+    &__actions_icon_text:first-child {
+        width: 30px;
+    }
+
+    &__actions_icon_text:last-child {
+        width: 22px;
+    }
+}
+
+.Header__title {
+    font-family: Oswald, sans-serif;
+    font-size: 18px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    color: #d93546;
+}
+
+.Header__header {
+    display: block;
+    text-align: center;
+}
+
+.Header .button__text {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu-item_theme_nav.menu-item_checked {
+    background: none !important;
+}
+
+.link.link_active p {
+    position: relative;
+    color: #d93546;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .Header {
+        & .logo_img {
+            width: 48px;
+            height: 48px;
+        }
+
+        & .hide {
+            display: none;
+        }
+
+        &__logout {
+            display: none;
+        }
+    }
+}

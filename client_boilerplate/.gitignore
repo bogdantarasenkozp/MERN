@@ -1,0 +1,19 @@
+# кеш пакетов
+.npm
+
+# серверные модули
+node_modules/*
+!node_modules/app
+
+# другое
+npm-debug.log
+
+.idea/
+configs/current
+build/
+
+
+# другое
+.idea/
+.DS_Store
+.npm

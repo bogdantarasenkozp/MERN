@@ -1,0 +1,83 @@
+.HomeInfo {
+    &__header {
+        font-size: 21px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding-bottom: 15px;
+        border-bottom: 4px solid transparent;
+        border-image: linear-gradient(90deg, #dd2f42 0%, #978a8a 100%);
+        border-image-slice: 1;
+
+        & .Icon {
+            margin-right: 10px;
+        }
+
+        & .Text {
+            margin: 0;
+        }
+    }
+
+    &__list {
+        width: 90%;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    &__list-item {
+        font-size: 18px;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0;
+        text-align: center;
+        color: #493f3f;
+
+        &:first-child {
+            font-family: Oswald, sans-serif;
+            font-size: 18px;
+            letter-spacing: 1px;
+        }
+
+        & .red {
+            font-family: Oswald, sans-serif;
+            font-size: 25px;
+            letter-spacing: 1px;
+            color: #d93546;
+        }
+
+        &:last-child {
+            font-size: 21px;
+        }
+    }
+
+    &__divide {
+        width: 94%;
+        margin: 0 auto;
+        border-bottom: 4px solid #d2d2d288;
+    }
+}
+
+.Card {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 25px;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.12) 0 3px 12px, rgba(0, 0, 0, 0.12) 0 1px 4px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .HomeInfo {
+        &__list-item {
+            margin: 15px 0;
+        }
+    }
+
+    .Card {
+        margin: 10px auto;
+        padding: 15px 0;
+    }
+}

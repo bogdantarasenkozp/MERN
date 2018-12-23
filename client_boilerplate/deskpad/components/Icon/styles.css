@@ -1,0 +1,61 @@
+.Icon {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+
+    &_size_xx {
+        width: 12px;
+        height: 12px;
+    }
+
+    &_size_x {
+        width: 14px;
+        height: 14px;
+    }
+
+    &_size_xs {
+        width: 16px;
+        height: 16px;
+    }
+
+    &_size_xxs {
+        width: 18px;
+        height: 18px;
+    }
+
+    &_size_s {
+        width: 20px;
+        height: 20px;
+    }
+
+    &_size_m {
+        width: 24px;
+        height: 24px;
+    }
+
+    &__svg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+
+        transform: translate(-50%, -50%);
+    }
+
+    & svg {
+        width: 100%;
+        height: 100%;
+    }
+
+    &_color_white {
+        fill: #fff;
+    }
+
+    &_color_yellow {
+        fill: #f7a21b;
+    }
+
+    &_color_black {
+        fill: #000;
+    }
+}

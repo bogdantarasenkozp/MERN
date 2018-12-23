@@ -1,0 +1,179 @@
+.Text {
+    font-size: 14px;
+
+    &_center {
+        text-align: center;
+    }
+
+    &_left {
+        text-align: left;
+    }
+
+    &_size_s {
+        font-size: 12px;
+    }
+
+    &_size_xs {
+        font-size: 10px;
+    }
+
+    &_size_xss {
+        font-size: 14px;
+    }
+
+    &_size_m {
+        font-size: 16px;
+    }
+
+    &_size_l {
+        font-size: 18px;
+    }
+
+    &_size_xl {
+        font-size: 20px;
+    }
+
+    &_size_xll {
+        font-size: 21px;
+    }
+
+    &_size_xxl {
+        font-size: 22px;
+    }
+
+    &_size_xxxl {
+        font-size: 25px;
+    }
+
+    &_size_xxxxl {
+        font-size: 30px;
+    }
+
+    &_size_xc {
+        font-size: 28px;
+    }
+
+    &_color_charcoal {
+        color: #493f3f;
+    }
+
+    &_color_red {
+        color: #d83547;
+    }
+
+    &_color_dark {
+        color: #201f1f;
+    }
+
+    &_color_white {
+        color: #fff;
+    }
+
+    &_color_shaft {
+        color: #202020;
+    }
+
+    &_grey {
+        color: #8f8f8f;
+    }
+
+    &_lightGrey {
+        color: #606060;
+    }
+
+    &_color_darkGrey {
+        color: #797979;
+    }
+
+    &_lh_l {
+        line-height: 10px;
+    }
+
+    &_lh_xl {
+        line-height: 20px;
+    }
+
+    &_lh_xxl {
+        line-height: 25px;
+    }
+
+    &_bold {
+        font-weight: bold;
+    }
+
+    &_light {
+        font-weight: 200;
+    }
+
+    &_weight_lighter {
+        font-weight: 500;
+    }
+
+    &_shadow {
+        opacity: 0.25;
+    }
+
+    &_fullwidth {
+        width: 100%;
+    }
+
+    &_card {
+        margin: 0;
+        padding: 20px;
+
+        text-align: center;
+        background: #f9f9f9;
+
+        box-shadow: 0 2px 9px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    &_roboto {
+        font-family: Roboto, sans-serif;
+    }
+
+    &_oswald {
+        font-family: Oswald, sans-serif;
+        letter-spacing: 1px;
+    }
+
+    &_offset_no {
+        margin: 0;
+    }
+
+    &_spacing_smaller {
+        letter-spacing: 0.7px;
+    }
+
+    &_spacing_small {
+        letter-spacing: 0.9px;
+    }
+
+    &_spacing_default {
+        letter-spacing: 1px;
+    }
+
+    &_spacing_half {
+        letter-spacing: 1.5px;
+    }
+
+    &_spacing_middle {
+        letter-spacing: 2px;
+    }
+
+    &_underlined {
+        text-decoration: underline;
+    }
+
+    &_inline {
+        display: inline;
+    }
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .Text {
+        &_size_l {
+            font-size: 15px;
+        }
+    }
+}

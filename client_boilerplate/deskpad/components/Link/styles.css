@@ -1,0 +1,28 @@
+.link {
+    text-decoration: none;
+    color: #0054b9;
+
+    &_theme_default {
+        color: #493f3f;
+    }
+
+    &:hover,
+    &&_active {
+        color: #f7a31c;
+        outline: none;
+    }
+
+    &_pseudo {
+        cursor: pointer;
+    }
+
+    &_theme_hidden {
+        color: #999;
+
+        &:hover,
+        &.active {
+            color: #f7a31c;
+            outline: none;
+        }
+    }
+}

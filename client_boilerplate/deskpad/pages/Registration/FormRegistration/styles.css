@@ -1,0 +1,79 @@
+.FormRegistration {
+    width: 640px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+
+    &__title {
+        margin-bottom: 15px;
+    }
+
+    &__body {
+        padding: 0 100px 10px;
+
+        & .input {
+            width: 100%;
+        }
+    }
+
+    &__field {
+        display: flex;
+        align-items: center;
+
+        margin-bottom: 34px;
+
+        & .Icon {
+            margin-right: 34px;
+        }
+    }
+
+    &__errors {
+        text-align: center;
+        color: rgba(219, 52, 72, 1);
+    }
+
+    & .checkbox {
+        margin-right: 23px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .FormRegistration {
+        width: 100%;
+        height: 100%;
+        box-shadow: none;
+
+        & .Form__FormHeader {
+            font-size: 22px;
+        }
+
+        &__body {
+            padding: 10px 20px 15px;
+
+            & .button_theme_default {
+                padding-right: 10px;
+                padding-left: 10px;
+            }
+
+            & .Text_card {
+                width: 100%;
+                padding: 10px 20px;
+                text-align: left;
+            }
+        }
+
+        &__field {
+            &:last-child {
+                margin-bottom: 25px;
+            }
+
+            & .Icon {
+                margin-right: 20px;
+            }
+        }
+
+        & .checkbox {
+            margin-right: 10px;
+        }
+    }
+}

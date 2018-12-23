@@ -1,0 +1,25 @@
+.Form {
+    & .button_type_submit {
+        display: flex;
+        align-items: center;
+    }
+
+    & .button_type_submit  .spin {
+        margin-left: 10px;
+    }
+
+    &__field-title_required {
+        &::before {
+            font-size: 28px;
+            font-weight: bold;
+            margin-right: 10px;
+            content: '*';
+            vertical-align: middle;
+            color: #d93343;
+        }
+    }
+
+    & .Alert {
+        margin-bottom: 10px;
+    }
+}

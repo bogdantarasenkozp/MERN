@@ -1,0 +1,86 @@
+body,
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* background-color: #f2f2f2; */
+    background-color: #f6f6f6;
+}
+
+/* stylelint-disable */
+#app {
+    height: 100%;
+}
+/* stylelint-enable */
+
+.app_wrapper {
+    height: 100%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-center {
+    align-items: center;
+}
+
+.flex-between {
+    justify-content: space-between;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.flex-content-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-end {
+    text-align: end;
+}
+
+.Card {
+    box-sizing: border-box;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.12) 0 3px 12px, rgba(0, 0, 0, 0.12) 0 1px 4px;
+}
+
+.Card-header {
+    height: 45px !important;
+    padding: 18px 45px;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.Card-header button {
+    padding: 5px 25px;
+}
+
+.Card-body {
+    padding: 10px 45px;
+    background: #fff;
+}
+
+.Card-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header-divide {
+    margin-right: -45px;
+    margin-left: -45px;
+    border: 0.5px solid #f6f6f6;
+}
+
+.clear-padding-left {
+    padding-left: 0 !important;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');

@@ -1,0 +1,7 @@
+.Row {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-right: -15px;
+    margin-left: -15px;
+}

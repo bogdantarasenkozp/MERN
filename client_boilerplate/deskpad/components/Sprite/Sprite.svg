@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="Sprite">
+	<Symbol id="envelope" viewBox="0 0 14 10">
+        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g fill-rule="nonzero" fill="#030104">
+                <path d="M7,7 L5.268,5.484 L0.316,9.729 C0.496,9.896 0.739,10 1.007,10 L12.993,10 C13.26,10 13.502,9.896 13.681,9.729 L8.732,5.484 L7,7 Z" id="Shape"></path>
+                <path d="M13.684,0.271 C13.504,0.103 13.262,0 12.993,0 L1.007,0 C0.74,0 0.498,0.104 0.318,0.273 L7,6 L13.684,0.271 Z" id="Shape"></path>
+                <polygon points="0 0.878 0 9.186 4.833 5.079"></polygon>
+                <polygon points="9.167 5.079 14 9.186 14 0.875"></polygon>
+            </g>
+        </g>
+	</Symbol>
+	<Symbol id="lock" viewBox="0 0 12 16">
+        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g fill-rule="nonzero" fill="#030104">
+                <path d="M10.639,6.909 L10.639,4.785 C10.639,2.147 8.493,0 5.854,0 C3.215,0 1.071,2.147 1.071,4.785 L1.071,6.909 L0.141,6.909 L0.141,15.804 L11.662,15.804 L11.662,6.909 L10.639,6.909 Z M6.981,11.512 L6.981,13.393 C6.981,13.883 6.584,14.28 6.094,14.28 C5.603,14.28 5.206,13.884 5.206,13.393 L5.206,11.512 C4.897,11.256 4.696,10.873 4.696,10.441 C4.696,9.669 5.322,9.044 6.094,9.044 C6.866,9.044 7.49,9.669 7.49,10.441 C7.491,10.874 7.29,11.256 6.981,11.512 Z M8.899,6.909 L2.811,6.909 L2.811,4.785 C2.811,3.106 4.177,1.74 5.856,1.74 C7.534,1.74 8.9,3.106 8.9,4.785 L8.9,6.909 L8.899,6.909 Z" id="Shape"></path>
+            </g>
+        </g>
+	</Symbol>
+    <Symbol id="person" viewBox="0 0 95.926 95.926">
+        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g fill-rule="nonzero" fill="#9a8686">
+                <path d="M47.893,47.221c11.768,0,21.341-10.592,21.341-23.611S59.66,0,47.893,0C36.125,0,26.55,10.592,26.55,23.61    C26.55,36.63,36.125,47.221,47.893,47.221z"/>
+                <path d="M72.477,44.123c-1.244-0.269-2.524,0.272-3.192,1.355C61.65,57.847,49.34,58.204,47.962,58.204    s-13.687-0.357-21.32-12.722c-0.67-1.085-1.953-1.628-3.198-1.354C6.868,47.777,2.497,72.798,3.789,93.115    c0.101,1.58,1.411,2.811,2.994,2.811h82.36c1.583,0,2.894-1.23,2.993-2.811C93.429,72.775,89.057,47.74,72.477,44.123z"/>
+            </g>
+        </g>
+    </Symbol>
+    <Symbol id="payment" viewBox="0 0 512 512">
+        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g fill-rule="nonzero" fill="#9a8686">
+                <path d="M256,0C114.625,0,0,114.625,0,256s114.625,256,256,256c141.406,0,256-114.625,256-256S397.406,0,256,0z M325.812,354.844   c-12.594,14.125-30.78,22.438-54.562,24.938V416h-30.313v-36.031c-39.656-4.062-64.188-27.125-73.656-69.125l46.875-12.219   c4.344,26.406,18.719,39.594,43.125,39.594c11.406,0,19.844-2.812,25.219-8.469s8.062-12.469,8.062-20.469   c0-8.281-2.688-14.563-8.062-18.813c-5.375-4.28-17.344-9.688-35.875-16.25c-16.656-5.78-29.688-11.469-39.063-17.155   c-9.375-5.625-17-13.531-22.844-23.688c-5.844-10.188-8.781-22.063-8.781-35.563c0-17.719,5.25-33.688,15.688-47.875   c10.438-14.156,26.875-22.813,49.313-25.969V96h30.313v27.969c33.875,4.063,55.813,23.219,65.781,57.5l-41.75,17.125   c-8.156-23.5-20.72-35.25-37.781-35.25c-8.563,0-15.438,2.625-20.594,7.875c-5.188,5.25-7.781,11.625-7.781,19.094   c0,7.625,2.5,13.469,7.5,17.563c4.969,4.063,15.688,9.094,32.063,15.125c18,6.563,32.125,12.781,42.344,18.625   c10.25,5.844,18.406,13.938,24.531,24.219c6.094,10.313,9.155,22.345,9.155,36.126C344.719,323.125,338.406,340.75,325.812,354.844   z"/>
+            </g>
+        </g>
+    </Symbol>
+    <Symbol id="upload" viewBox="0 0 485.211 485.211">
+        <path d="M422.961,197.892c0.686-5.274,1.601-10.487,1.601-15.936c0-66.989-54.287-121.304-121.307-121.304   c-39.623,0-74.477,19.28-96.602,48.687c-7.967-1.925-16.169-3.197-24.698-3.197c-58.639,0-106.139,47.501-106.139,106.141   c0,1.657,0.413,3.139,0.472,4.795C32.31,230.02,0,270.238,0,318.416C0,377.059,47.504,424.56,106.139,424.56h257.77   c67.02,0,121.303-54.277,121.303-121.302C485.211,257.828,459.947,218.676,422.961,197.892z M272.933,272.931v90.976h-60.65   v-90.976h-60.654l90.978-90.975l90.979,90.975H272.933z"/>
+    </Symbol>
+    <Symbol id="close" viewBox="0 0 13 13">
+        <polyline class="arrow" fill="none" stroke="currentColor" points="1 1,6.5 6.5,12 1"/>
+        <polyline class="arrow" fill="none" stroke="currentColor" points="1 12,6.5 6.5,12 12"/>
+    </Symbol>
+    <Symbol id="edit" viewBox="0 0 13 13">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+            <g>
+                <g transform="translate(-1107 -238)"><image width="24" height="24" transform="translate(1107 238)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAADRElEQVRIS6WVy28bVRTGf2fGhRkjFhXQFk8CiA0bWHaJSENKBOLZgmketpNGQDfADiEhJITEig0sWdDUYzsNEv0DEIuqXYCybEpbSnnHHggggWhiu3hmDrpOXDmpX03vdu79fme++51zhVtc/5Tu2+1E0TsKWUAQTsUJ6/07JlYCIy23or9euP9eK45OIPoE4KP6HyIZ4JzY9oQz9euPOwY0xbUxDzKGyDFnuvypCFr1hw4J6oNeIopf2hHg6vF99yQSdgk4qKpvJXPBh+1OXMunnotFFoHFmwZsiFsFkAMKa6J8JwnJOlPlK+2Qqp/6WJDcTQHWTw6nrEZ8AhhDJSsWf6lqAfjTivTQ7bPBty1INe99JMLMwIC1hT177cauEsKoEXdz5aIRq/neqMIpQSsiHHYyweVq3ntRhCJIaSDAvwupu3eFsgCMoHK0Jd6qtlb0HteYzwWuiEpJRT8AljXUl/sC1uYf2GdbYR7RMVRfcXPB8U7RrvvD4zGxqfgu4Gux7em+MW2K2w3fpAXVuW7iBlj3h55S9DPgAoQTbnb1p56NthlFY8soMOdmK+ZyO67NWJq958W2J03lrY0dLbrq792T0MQCwqOIHnMzwXw38Xoh9ayqlFC+QcLJVuVdAW0dOo4y4+Yq+W7i64XU85ZaedDLGurh5NFgZfveLX/QrJyEid9BhJybqRj/e9myqCoXrISVbrel/cB1QJv4CPBqL883543x/JzE1qQzs/JDt0KaAP0klay7YuKXRnSul+fV/NALImpsu0gUHXFnf/+510RuAq4Vhx6JYj0DWkxmgze6Xmjee1qFjShGUbqf+PWY1nxvBphHGXVzldOdGyn1jCLG80uWxREnU/5+kLdE9D2s+oOeieFISLj/zuzqH9sPbnpuhtoNOe8HkY1R0DiNxZIzXZk1j8aWsbvhuUnTRew47U799ks/0S0pMoOKmC9UNJPMBCfNR/PO3qbRQxLLk6Bvgy5DlN7eRIOApJb33kV4HYsJiTUZY40L+hjwsMLfYgaXyJuDen5Do9V87ytgP7AKeEBZYAnkbAxLbi0+L68F1UGq7bRHar73parsRvSsrXomlmjZGV5dkQOEOxVtP/c/SPpxrvEH8e8AAAAASUVORK5CYII="/>
+                </g>
+            </g>
+        </svg>
+    </Symbol>
+    <Symbol id="checked" viewBox="0 0 13 13">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19" height="13" viewBox="0 0 19 13">
+            <g>
+                <g transform="translate(-293 -243)">
+                    <image width="19" height="13" transform="translate(293 243)" xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAANCAYAAABLjFUnAAABgUlEQVQ4T6WSsWsTYRjGf+8FmrukoA6CXE6oazf/CBcnJx30LmZoaCMWhHYRdBIjmEFRcCr0rjrYOrhYHPwzdG8xORFaKNXkrhnulS9eJGg0mHzbB+/z+57veV5hxpOE3g3Q+yr6XmZhJVtuDZVnQBn4OjUsibwl0KeAA/RBG1PB0q3KiipPgLkhyAnijf+GpZF7S5HHuaMuQsPxO5GJS1SRo82FU2dqe0eT8ktD77aKGlAR+I7IsuO3Xw11kkSVF6BXTJC2c7olVz/1x0F7obsuIo8AC0hUtVaqxq9HZw3sM+ANbApv1MrWnOtf9keHclATKIAcq2b130EDfRp5lxWeg17IAR9F9Y5djT+Yew56YMJWMFHUS0FnZ5z7QQEnL88tZlnBtHMpH/omonczrLKoPvz5NTnOJKuW/fjt37L91aZun50/SYv3FF0F7FGBwqGFBHbQ3v1XSX+sRi90r4lIa5gjcCDCTdvvvJvU9tg964buRUtognVeYH2So+EjPwCov4gEhs+8rgAAAABJRU5ErkJggg==' />
+                </g>
+            </g>
+        </svg>
+    </Symbol>
+    <Symbol id="unchecked" viewBox="0 0 13 13">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19" height="19" viewBox="0 0 19 19">
+            <g>
+                <g transform="translate(-1110 -241)">
+                    <image width="19" height="19" transform="translate(1110 241)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAADDUlEQVQ4T4VU32scZRQ9ZyaTRFJCTe2uTZrd2ZkhecijRfDBF8EH/Qd88QeKCv5oLaK1YAX76yFVqKbWFgUJBiuKbz4JoiL4GOibsEyWZFcsbW2iGJBlZr4jd5kN27i1923mfvd85zvn3stGo/GNpAcB/Oj7/om1tbXfARS4e3hJkuzLsuwsycdJXmUYhlZ8AMA1ACue511stVrtu2HV6/UDJF+U9DzJgwA2DexLAI8AqAD4R9JF59zlTqezdifAKIpqkgzoFQB7AdwC8DMbjUbdOfcqSUvcUwIsjo6Ovt9sNjcBuAFQzs/P7+l2u69LOkFyxAiQ/AzABQLw4ziezvP8CMk3ysJbJJdJnm61Wn/1warV6sT4+Phxe175EkstFUWxVKlU2gbWiziOk6IoXgBgB436DUmfB0HwYZqmv83Nzd3X7XZfI/kcgGlJ2wCWAXy8sbHxq2HsgNmHFWRZdlzSkwCqADKSpyR9D+AhSadI7gFwU9JXQRAs2kV9QreBGXgURZOS3pF0BEAg6Q8Af5KcKF0vSF72ff9kmqaW053Aev+TJDmYZdkzJA+X2vQKJJkhlyQtt9vt1m63dzPbyddqtQc8z/sCwPxAUcs593S73f5lWNsMBSsb8gkA5u50qa2xuw7gg6IoVjqdjjX7bfEfzRYWFia2t7ffAnC0FHsLwN9lD+4vTVmSdGZ9fd3aZrhmSZJMFkVxTNKzJSPT6Yzv+9855x4GcNJMMYaSVsbGxhabzaaZ0IsdZjYizjkDebkUfVPSFUnnTezZ2dnpkZER6/yn+nkAnzrnPumbYWBeGIYVmzOSxwCMAtgieaW0/2b/5jAM90p6m6Rduq90+L0gCJbSNL1ms1mVZGyOApgsD1wIguBcmqYm8uBsejMzM/cGQfAmANPVorccPM/7yLaGjcSjpUaFpEuDIzKsBWq1WkTypYHlcAPADwZme+x+GxGSX+d5fv7/1k8fPI7j2TzPD5O00bN9uMV6vf4tyUMAfiL57tTUVGt1dTUbxmjXPz+Kohnn3GkAjwG4+i//x1exxYPYRgAAAABJRU5ErkJggg=="/>
+                </g>
+            </g>
+        </svg>
+    </Symbol>
+    <Symbol id="save" viewBox="0 0 50 50">
+        <svg class="icon icon-save" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 368 368" style="enable-background:new 0 0 368 368;" xml:space="preserve">
+            <g>
+                <g>
+                    <path d="M365.656,66.344l-63.992-64C300.168,0.84,298.136,0,296.008,0H24C10.768,0,0,10.768,0,24v320c0,13.232,10.768,24,24,24
+                        h320c13.232,0,24-10.768,24-24V72C368,69.88,367.16,67.84,365.656,66.344z M192,16h32v64h-32V16z M96,16h80v72
+                        c0,4.416,3.576,8,8,8h48c4.424,0,8-3.584,8-8V16h32v112H96V16z M288,352H80V192h208V352z M352,344c0,4.408-3.584,8-8,8h-40V184
+                        c0-4.416-3.576-8-8-8H72c-4.424,0-8,3.584-8,8v168H24c-4.416,0-8-3.592-8-8V24c0-4.408,3.584-8,8-8h56v120c0,4.416,3.576,8,8,8
+                        h192c4.424,0,8-3.584,8-8V16h4.696L352,75.312V344z"/>
+                </g>
+            </g>
+        </svg>
+    </Symbol>
+    <Symbol id="tilda" viewBox="0 0 13 13">
+        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="5" viewBox="0 0 15 5"><g><g transform="translate(-731 -348)"><g fill="#f7a21b" font-family="'MS-Gothic','MS-Gothic'" font-size="18" font-style="none" font-weight="400" style="line-height:24px"><text dominant-baseline="text-before-edge" font-family="Helvetica, Arial, sans-serif" transform="translate(731 348)"><tspan letter-spacing=".9" style="font-kerning:normal">〜</tspan></text></g></g></g></svg>
+    </Symbol>
+    <Symbol id="search" viewBox="0 0 15 15">
+        <svg enable-background='new 0 0 100 100' id='Layer_1' version='1.1' viewBox='0 0 100 100' xml:space='preserve' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><path clip-rule='evenodd' d='M64.5,44.6c0-11.6-9.4-20.9-20.9-20.9c-11.6,0-20.9,9.4-20.9,20.9  c0,11.6,9.4,20.9,20.9,20.9C55.1,65.6,64.5,56.2,64.5,44.6z M80,79.3l-1.8,1.8l-19-19c-4.2,3.7-9.6,6-15.7,6  c-13,0-23.5-10.5-23.5-23.5c0-13,10.5-23.5,23.5-23.5c13,0,23.5,10.5,23.5,23.5c0,6-2.3,11.5-6,15.7L80,79.3z' fill='#231F20' fill-rule='evenodd'/></svg>
+    </Symbol>
+    <Symbol id="check" viewBox="0 0 13 13">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="10" viewBox="0 0 13 10"><g><g transform="translate(-735 -414)"><image width="13" height="10" transform="translate(735 414)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAKCAYAAABv7tTEAAAA70lEQVQoU5WRO0vCcRSGn2N9mz5FiCK1+FMStNKxqbGGhi6DQ0EOTo4uHgcxBcGGloZaWhoLatCpCHMQA0H9n8DQLhbaWc/7wHsR/nMFl0FYlrmZoktj7IHV54PU7QNHwAWDNzcbUrcDnABXeL1VNs47gkaX6HvPpCqvU1Y1sg2WBW7oszLWCOraYA0YBknUWhNQI1tgObBbBhIiWXkZ/wQN74IcI1yzsBgiVuqiLgXkgTuG4mfz7Omri49MxfABJoejoCaXiKUReQQvQLza+Gn7s4hJpSNJE/MFWC8//DbJ9/bUnQJB8K2RKN//teE7VnJPb4KwY6cAAAAASUVORK5CYII="/></g></g></svg>
+    </Symbol>    
+</svg>
